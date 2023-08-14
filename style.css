@@ -1,0 +1,232 @@
+/* @font-face {
+  font-family: domain;
+  src: url(/PROJECTS/PROJECT-3/ttf\ fonts/domain);
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#main {
+  background-color: #1c1c1a;
+}
+#page1 {
+  min-height: 100vh;
+  width: 100vw;
+  position: relative;
+  overflow: visible;
+  background-color: #c6beb4;
+}
+#nav {
+  /* background-color: red; */
+
+  padding: 0 30px;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid #a49e96;
+}
+#nav img {
+  height: 30px;
+  width: 30%;
+}
+#nav h5 {
+  font-size: 15px;
+  font-weight: 100;
+  width: 30%;
+  font-family: Editorial New Light;
+}
+#nav i {
+  width: 30%;
+  text-align: right;
+}
+#elems {
+  /* background-color: red; */
+  height: 430px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 60px;
+}
+#elem1 {
+  width: 30%;
+  height: 100%;
+  /* background-color: blue; */
+}
+#elem1 #image-div {
+  width: 100%;
+  height: 50%;
+  overflow: hidden;
+  border: 2px solid #a49e96;
+}
+#elem1 h4 {
+  font-size: 30px;
+  margin-block: 10px;
+  font-family: canopee;
+}
+#elem1 h4 span {
+  color: white;
+  background-color: #ba3d12;
+  font-size: 18px;
+  font-weight: 100;
+  padding: 5px;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+#elem1 p {
+  font-size: 20px;
+  font-family: Editorial New Light;
+}
+
+#elem2 {
+  width: 30%;
+  height: 100%;
+  border-right: 2px solid #a49e96;
+  border-left: 2px solid #a49e96;
+  text-align: center;
+}
+#elem2 h2 {
+  font-family: canopee;
+  font-size: 400%;
+  font-weight: 100;
+  margin-block: 15px;
+}
+#elem2 h3 {
+  font-family: Editorial New Light;
+  font-size: 250%;
+  font-weight: 100;
+  margin-bottom: 30px;
+}
+#elem2 h4 {
+  font-family: Editorial New Light;
+  font-weight: 100;
+}
+#elem2 span {
+  font-weight: 999;
+  margin-right: 10px;
+}
+#elem3 {
+  width: 30%;
+  height: 100%;
+  /* background-color: blue; */
+}
+#elem3 #image-div {
+  width: 100%;
+  height: 50%;
+  overflow: hidden;
+  border: 2px solid #a49e96;
+}
+#elem3 h4 {
+  font-size: 30px;
+  margin-block: 10px;
+  font-family: canopee;
+}
+#elem3 h4 span {
+  color: white;
+  background-color: #ba3d12;
+  font-size: 18px;
+  font-weight: 100;
+  padding: 5px;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+#elem3 p {
+  font-size: 20px;
+  font-family: Editorial New Light;
+}
+
+#image-div img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: all ease 0.5s;
+  /* border: 1px solid #A49E96; */
+}
+#image-div:hover img {
+  scale: 1.1;
+}
+
+/* miranda banner */
+#page1 h1 {
+  background-color: #1c1c1a;
+  color: #c6beb4;
+  font-family: canopee;
+  text-align: center;
+  font-size: 550px;
+  line-height: 450px;
+  letter-spacing: -25px;
+  margin-inline: 2%;
+  font-weight: 300;
+  /* margin-inline: 20px; */
+}
+
+/* page2  */
+#page2 {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #c6beb4;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-around;
+  gap: 20px;
+}
+/* page 2 left part */
+#page2-left {
+  /* background-color: red; */
+  height: 100%;
+  width: 45%;
+  border-right: 2px solid #a49e96;
+  padding: 2%;
+}
+#page2-left img {
+  /* background-color: red; */
+  width: 100%;
+  border: 2px solid #a49e96;
+  margin-block: 20px;
+}
+#page2-left h1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: canopee;
+  font-size: 415%;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+#page2-left h1 span {
+  font-size: 300%;
+}
+#page2-left h2 {
+  font-family: Editorial New Light;
+  font-size: 35px;
+  font-weight: 100;
+}
+
+/* page 2 right part */
+
+#page2-right {
+  /* background-color: red;   */
+  width: 75%;
+  padding: 20px;
+}
+#page2-right img {
+  /* background-color: red; */
+  border: 2px solid #a49e96;
+  width: 100%;
+}
+#page2-right h1 {
+  font-family: canopee;
+  font-size: 715%;
+  line-height: 20vh;
+}
+
+/* p
+ */
